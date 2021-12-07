@@ -74,7 +74,7 @@ When starting an object is passed, it has by default the following options:
 }
 ```
 
-## Original 'memoryUsage' and 'memoryUsageInstance'
+## Class 'memoryUsage' and instance 'memoryUsageInstance'
 
 You can use the ready-made instance to take measurements like above, or you can instantiate the main class yourself in different parts of the code, remembering that the measured memory will be the same at the time of data intersection, and the name needs to be changed so as not to overwrite the data of functions started in different places.
 
